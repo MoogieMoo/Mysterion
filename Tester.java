@@ -13,7 +13,7 @@ public class Tester {
 	
     }
     
-    public int mysterion ( arr, a, b, c ) {
+    public int mysterion ( int[] arr, int a, int b, int c ) {
 	
 	int v = arr[c];
 	swap( arr, c, b );

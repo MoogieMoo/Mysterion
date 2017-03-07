@@ -68,8 +68,70 @@ public class Tester {
 	}
 	int c = (int)( Math. random() * 4 );
 
+	System.out.println( "==============================" );
 	System.out.println( "Test Case #1:" );
 	mysterion( arr, a, b, c );
+	System.out.println( "==============================" );
+
+	//initiate array
+	int[] arr = new int[4];
+	//populate
+	for ( int i = 0; i < 4; i++ ) {
+	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	}
+
+	//initiate a, b, and c as random integers from 0 to 3
+	int a = (int)( Math. random() * 4 );
+	int b = (int)( Math. random() * 4 );
+	while ( b == 1 ) {//discovered in class that b should not be 1
+	    b = (int)( Math. random() * 4 );
+	}
+	int c = (int)( Math. random() * 4 );
+
+	System.out.println( "==============================" );
+	System.out.println( "Test Case #2:" );
+	mysterion( arr, a, b, c );
+	System.out.println( "==============================" );
+
+	//initiate array
+	int[] arr = new int[4];
+	//populate
+	for ( int i = 0; i < 4; i++ ) {
+	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	}
+
+	//initiate a, b, and c as random integers from 0 to 3
+	int a = (int)( Math. random() * 4 );
+	int b = (int)( Math. random() * 4 );
+	while ( b == 1 ) {//discovered in class that b should not be 1
+	    b = (int)( Math. random() * 4 );
+	}
+	int c = (int)( Math. random() * 4 );
+
+	System.out.println( "==============================" );
+	System.out.println( "Test Case #3:" );
+	mysterion( arr, a, b, c );
+	System.out.println( "==============================" );
+
+	//initiate array
+	int[] arr = new int[4];
+	//populate
+	for ( int i = 0; i < 4; i++ ) {
+	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	}
+
+	//initiate a, b, and c as random integers from 0 to 3
+	int a = (int)( Math. random() * 4 );
+	int b = (int)( Math. random() * 4 );
+	while ( b == 1 ) {//discovered in class that b should not be 1
+	    b = (int)( Math. random() * 4 );
+	}
+	int c = (int)( Math. random() * 4 );
+
+	System.out.println( "==============================" );
+	System.out.println( "Test Case #4:" );	
+	mysterion( arr, a, b, c );
+	System.out.println( "==============================" );
 
     }
 }

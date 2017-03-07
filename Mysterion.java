@@ -3,7 +3,7 @@
 // HW13--
 // 2017-03-06
 
-public class Tester {    
+public class Mysterion {    
 
     public static void swap ( int[] arr, int x, int y ) {
 	

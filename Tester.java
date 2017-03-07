@@ -77,7 +77,7 @@ public class Tester {
 	int[] brr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
-	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	    brr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
 	//initiate d, e, and f as random integers from 0 to 3
@@ -97,7 +97,7 @@ public class Tester {
 	int[] crr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
-	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	    crr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
 	//initiate g, h, and j as random integers from 0 to 3
@@ -117,7 +117,7 @@ public class Tester {
 	int[] drr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
-	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
+	    drr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
 	//initiate a, b, and c as random integers from 0 to 3

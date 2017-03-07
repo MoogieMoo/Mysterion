@@ -74,63 +74,63 @@ public class Tester {
 	System.out.println( "==============================" );
 
 	//initiate array
-	int[] arr = new int[4];
+	int[] brr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
 	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
-	//initiate a, b, and c as random integers from 0 to 3
-	int a = (int)( Math. random() * 4 );
-	int b = (int)( Math. random() * 4 );
-	while ( b == 1 ) {//discovered in class that b should not be 1
-	    b = (int)( Math. random() * 4 );
+	//initiate d, e, and f as random integers from 0 to 3
+	int d = (int)( Math. random() * 4 );
+	int e = (int)( Math. random() * 4 );
+	while ( e == 1 ) {//discovered in class that b should not be 1
+	    e = (int)( Math. random() * 4 );
 	}
-	int c = (int)( Math. random() * 4 );
+	int f = (int)( Math. random() * 4 );
 
 	System.out.println( "==============================" );
 	System.out.println( "Test Case #2:" );
-	mysterion( arr, a, b, c );
+	mysterion( brr, d, e, f );
 	System.out.println( "==============================" );
 
 	//initiate array
-	int[] arr = new int[4];
+	int[] crr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
 	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
-	//initiate a, b, and c as random integers from 0 to 3
-	int a = (int)( Math. random() * 4 );
-	int b = (int)( Math. random() * 4 );
-	while ( b == 1 ) {//discovered in class that b should not be 1
-	    b = (int)( Math. random() * 4 );
+	//initiate g, h, and j as random integers from 0 to 3
+	int g = (int)( Math. random() * 4 );
+	int h = (int)( Math. random() * 4 );
+	while ( h == 1 ) {//discovered in class that b should not be 1
+	    h = (int)( Math. random() * 4 );
 	}
-	int c = (int)( Math. random() * 4 );
+	int j = (int)( Math. random() * 4 );
 
 	System.out.println( "==============================" );
 	System.out.println( "Test Case #3:" );
-	mysterion( arr, a, b, c );
+	mysterion( crr, g, h, j );
 	System.out.println( "==============================" );
 
 	//initiate array
-	int[] arr = new int[4];
+	int[] drr = new int[4];
 	//populate
 	for ( int i = 0; i < 4; i++ ) {
 	    arr[i] = (int) ( Math. random() * 50 + 1 );//min=1, max=50
 	}
 
 	//initiate a, b, and c as random integers from 0 to 3
-	int a = (int)( Math. random() * 4 );
-	int b = (int)( Math. random() * 4 );
-	while ( b == 1 ) {//discovered in class that b should not be 1
-	    b = (int)( Math. random() * 4 );
+	int k = (int)( Math. random() * 4 );
+	int l = (int)( Math. random() * 4 );
+	while ( l == 1 ) {//discovered in class that b should not be 1
+	    l = (int)( Math. random() * 4 );
 	}
-	int c = (int)( Math. random() * 4 );
+	int m = (int)( Math. random() * 4 );
 
 	System.out.println( "==============================" );
 	System.out.println( "Test Case #4:" );	
-	mysterion( arr, a, b, c );
+	mysterion( drr, k, l, m );
 	System.out.println( "==============================" );
 
     }

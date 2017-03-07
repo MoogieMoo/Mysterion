@@ -3,6 +3,14 @@
 // HW13--
 // 2017-03-06
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Truth be told, I have no darned clue what
+   "mysterion" is supposed to do... I'm temp-
+   ted to say it's a sorting algo, but that's
+   just based on what I've heard other people
+   murmur. I am boggled. Halp.
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 public class Mysterion {    
 
     public static void swap ( int[] arr, int x, int y ) {

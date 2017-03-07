@@ -19,7 +19,7 @@ public class Tester {
 	swap( arr, c, b );
 	int s = a;
 
-	for ( int i = a, i < b; i++ ) {
+	for ( int i = a; i < b; i++ ) {
 	    if ( arr[i] < v ) {
 		swap( arr, s, i );
 		s += 1;

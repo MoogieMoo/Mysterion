@@ -20,6 +20,7 @@ public class Tester {
 	    print = print + i + ", ";
 	}
 	print = print + arr[ arr.length - 1 ] + " ]";
+	System.out.println( print );
 	
     }
     

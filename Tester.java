@@ -17,7 +17,7 @@ public class Tester {
 	
 	String print =  "[ ";
 	for ( int i = 0; i < arr.length - 1; i++  ) {
-	    print = print + i + ", ";
+	    print = print + arr[i] + ", ";
 	}
 	print = print + arr[ arr.length - 1 ] + " ]";
 	System.out.println( print );

@@ -12,22 +12,42 @@ public class Tester {
 	arr[y] = h;
 	
     }
+
+    public static void printArr ( int[] arr ) {
+	
+	String print =  "[ ";
+	for ( int i = 0; i < arr.length - 1; i++  ) {
+	    print = print + i + ", ";
+	}
+	print = print + arr[ arr.length - 1 ] + " ]";
+	
+    }
     
     public static int mysterion ( int[] arr, int a, int b, int c ) {
-	
+
+	printArr( arr );
 	int v = arr[c];
+	System.out.println( "v = " + v );
+	
 	swap( arr, c, b );
+	printArr( arr );
 	int s = a;
+	System.out.println( "s = " + s );
 
 	for ( int i = a; i < b; i++ ) {
 	    if ( arr[i] < v ) {
 		swap( arr, s, i );
+		printArr( arr );
 		s += 1;
+		System.out.println( "s is now = " + s );
 	    }
 	}
 
 	swap( arr, b, s );
+	printArr( arr );
+	System.out.println ( "Final s = " + s );
 	return s;
+	
     }
 
     public static void main ( String[] args ) {
@@ -47,8 +67,8 @@ public class Tester {
 	}
 	int c = (int)( Math. random() * 4 );
 
+	System.out.println( "Test Case #1:" );
 	mysterion( arr, a, b, c );
-	System.out.println( mysterion( arr, a, b, c ));
 
     }
 }

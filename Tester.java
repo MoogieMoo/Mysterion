@@ -48,7 +48,7 @@ public class Tester {
 	int c = (int)( Math. random() * 4 );
 
 	mysterion( arr, a, b, c );
-	System.out.println( mysterion( arr, a, b, c );
+	System.out.println( mysterion( arr, a, b, c ));
 
     }
 }
